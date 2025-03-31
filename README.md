@@ -59,16 +59,43 @@ The **BESS-Set Dataset** provides time-series data for both normal operations an
 
 ### **2️⃣ Machine Learning Models**
 - **Binary Classification Models:**  
-  - **Decision Tree:** Achieved 99.97% accuracy.  
-  - **XGBoost:** High performance with 99.96% accuracy.  
+  - **Random Forest**  
+  - **XGBoost**
+  - **ANN**
+  - **Decision Tree**
+  - **SVM**   
 - **Multi-Class Classification:**  
-  - XGBoost demonstrated 99.82% accuracy.
+  - **Decision Tree**  
+  - **XGBoost**
+  - **ANN**
+  - **Decision Tree**
+  - **Isolation Forest**
 
 ### **3️⃣ Encryption Framework**
 - **Hybrid Encryption (AES + RSA):**  
   - Ensures secure data handling and transmission.  
-  - Combines AES for speed and RSA for robust key management.  
+  - Combines AES for speed and RSA for robust key management.
+- **Security Tests:**
+   - Key Length Test
+   - Ciphertext Integrity Test
+   - Reversible Encryption Test
+   - Randomness Test
+   - IV Uniqueness Test
+   - Column-Level Integrity Test
+   - Chi-Square Test
+   - Avalanche  Effect
+   - Mean Comparisn Test
+- **Cryptanalysis:**
+    - CPA Attack Model and Security Definition
+    - CCA Attack Model and Security Definition
+    - CCA2 Attack Model and Security Definition
 
+### **3️⃣ Secure Communicaion Protocol**
+- **Openssl:**  
+  - Mutual authentication.  
+  - Redundancy check.
+  - Hash verificaition.
+  - Data Validation and  Integrity checks 
 ---
 
 
